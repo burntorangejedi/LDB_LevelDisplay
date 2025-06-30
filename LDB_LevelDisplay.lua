@@ -75,6 +75,6 @@ f:SetScript("OnEvent", function(self, event, ...)
     local unitLevel = GetUnitLevel()
     local itemLevel = GetItemLevel()
     local gearDurability = GetGearDurability()
-    dataobj.text = "Level: " .. unitLevel .. " | iLevel: " .. itemLevel .. " | Durability: " .. gearDurability
-    ldb:RefreshDataObject("LevelDisplay")
+    dataobj.text = "Lvl: " .. unitLevel .. " | iLvl: " .. itemLevel .. " (" .. gearDurability .. ")"
+    dataobj.icon = "Interface\\Icons\\achievement_level_" .. unitLevel
 end)

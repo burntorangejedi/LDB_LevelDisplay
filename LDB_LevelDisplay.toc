@@ -1,0 +1,9 @@
+## Interface: 100207
+## Title: LDB Level Display
+## Notes: Displays your current character level using LibDataBroker.
+## Author: BurntOrangeJedi
+## Version: 1.0
+LDB_LevelDisplay.lua
+libs\LibStub\LibStub.lua
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+
